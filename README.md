@@ -10,6 +10,6 @@ pip install -r requirements.txt
 The sim.py script can be ran without providing any arguments, as the necessary arguments have default settings.
 
 The arguments accepted by the script are
-```
-*num_edge_nodes* hello
+```bash
+python sim.py --num_edge_nodes <num_edge_nodes> --training_epochs <training_epochs> --training_lr <training_lr> --training_batch_size <training_batch_size>
 ```
